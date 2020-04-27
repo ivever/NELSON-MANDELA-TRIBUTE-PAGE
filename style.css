@@ -1,0 +1,86 @@
+#main {
+    box-sizing: border-box;
+}
+
+#title {
+    max-width: 600px;
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px solid rgb(5, 5, 5);
+    margin: 0 auto;
+    display: block;
+    background-color: rgb(215, 222, 223, 0.3);
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+
+#img-div {
+    text-align: center;
+    display: block;
+    text-transform: uppercase;
+}
+
+.end {
+    background-color: rgb(169, 174, 179);
+    padding: 15px;
+}
+
+#tribute-info {
+    display: block;
+    padding: 10px;
+    background-color: rgb(215, 222, 223);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+    animation-name: fade;
+    animation-duration: 3s; 
+}
+
+#tribute-info h3{
+    text-align: center;
+    font-size: 1.8rem;
+    padding: 10px;
+}
+
+#tribute-info ul{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+    font-size: 1rem;
+    color: rgb(19, 19, 19);
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.9;
+    animation-name: fade;
+    animation-duration: 3s; 
+}
+
+#tribute-info blockquote {
+    text-align: center;
+}
+
+#tribute-info p{
+    text-align: center;
+}
+
+#tribute-link {
+    text-align: center;
+    display: block;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+        font-size: 0.1rem;
+    }
+    50% {
+        opacity: 0.5;
+        font-size: 0.5rem;
+    }
+    100% {
+        opacity: 1;
+        font-size: 1rem;
+    }
+}
